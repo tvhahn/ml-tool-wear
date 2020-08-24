@@ -135,4 +135,8 @@ dmypy.json
 *.hdf5
 data/raw/Readme.pdf
 data/raw/mill.mat
+models/best_models/20200620-053315_bvae/
+models/best_models/20200620-053315_encoder/
+models/saved_models/
+.vscode/
 
