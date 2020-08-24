@@ -4,11 +4,44 @@ from sklearn.utils import shuffle
 import pathlib
 import pandas as pd
 from pathlib import Path
-from src.func import data_transforms
 import h5py
 import pickle
 
 # import random
+
+def scaler(x, min_val, max_val, lower_norm_val, upper_norm_val):
+    """Scale the signal between a min and max value
+    
+    Parameters
+    ===========
+    x : ndarray
+        Signal that is being normalized
+
+    max_val : int or float
+        Maximum value of the signal or dataset
+
+    min_val : int or float
+        Minimum value of the signal or dataset
+
+    lower_norm_val : int or float
+        Lower value you want to normalize the data between (e.g. 0)
+
+    upper_norm_val : int or float
+        Upper value you want to normalize the data between (e.g. 1)
+
+    Returns
+    ===========
+    x : ndarray
+        Returns a new array that was been scaled between the upper_norm_val
+        and lower_norm_val values
+
+    """
+
+    # https://codereview.stackexchange.com/questions/185785/scale-numpy-array-to-certain-range
+    col, row = np.shape(x)
+    for i in range(col):
+        x[i] = np.interp(x[i], (min_val, max_val), (lower_norm_val, upper_norm_val))
+    return x
 
 
 class DataPrep:
@@ -112,7 +145,7 @@ class DataPrep:
             # scale each sample
             for j in range(167):
                 a = self.data[0, j][i]
-                a = data_transforms.scaler(a, min_val_a, max_val_a, lower, upper)
+                a = scaler(a, min_val_a, max_val_a, lower, upper)
 
     def create_tensor(
         self, data_sample, signal_names, start, end, window_size, stride=8
