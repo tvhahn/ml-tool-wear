@@ -14,7 +14,7 @@ The tool wear trend for case 13, generated in the latent space.
 ![Latent Space KL-Divergence Trend on Case 13](images/latent_space_recon_case_13_150dpi_3.png)
 
 The distribution of the test data samples in the latent space. The y-axis shows the true state of the data samples (either healthy, degraded, or failed) and the x-axis shows the anomaly predictions (either normal or abnormal). The dotted line represents a decision threshold. Each small grey dot represents one data sample.
-![Latent Space Distribution](images/dist_latent_lowres.png =250x)
+![Latent Space Distribution](images/dist_latent_lowres.png | width=100)
 
 
 
