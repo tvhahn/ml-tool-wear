@@ -20,9 +20,15 @@ The method achieved a precision-recall area-under-curve (PR-AUC) score of 0.45 a
     <img src="images/dist_latent_lowres.png" width="600">
 </p>
 
-**Figure 3:** The precision-recall curve (left) and the ROC curve (right) for the best model on the test data (for the millling data) using latent space anomaly detection. The no-skill model (equivalent to a random model) is plotted as a comparison. In the context of this experiment, precision is the proportion of abnormal predictions that are truly abnormal (the tool is in a failed state). Recall is the proportion of truly abnormal samples (failed in this case) that were identified correctly.
+**Figure 3:** The precision-recall curve (left) and the ROC curve (right) for the best model on the test data (using latent space anomaly detection). The no-skill model (equivalent to a random model) is plotted as a comparison. In the context of this experiment, precision is the proportion of abnormal predictions that are truly abnormal (the tool is in a failed state). Recall is the proportion of truly abnormal samples (failed) that were identified correctly.
 
 <p align="center">
     <img src="images/prauc_lowres.png">
+</p>
+
+**Figure 4:** The PR-AUC score in the latent space, while looking at one parameter in a pair at a time.
+
+<p align="center">
+    <img src="images/prauc_params_1_600dpi.png" width="800">
 </p>
 
