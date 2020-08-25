@@ -29,6 +29,6 @@ The method achieved a precision-recall area-under-curve (PR-AUC) score of 0.45 a
 **Figure 4:** The PR-AUC score in the latent space, while looking at one parameter in a pair at a time.
 
 <p align="center">
-    <img src="images/prauc_params_1_600dpi.png" width="800">
+    <img src="images/prauc_params_1_600dpi.png" width="600">
 </p>
 
