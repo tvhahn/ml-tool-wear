@@ -10,7 +10,7 @@ A disentangled-variational-autoencoder, with a temporal convolutional neural net
 
 The method achieved a precision-recall area-under-curve (PR-AUC) score of 0.45 across all cutting parameters in the milling data set, and a top score of 0.80 for shallow depth cuts. The study presents the first use of a disentangled-variational-autoencoder for tool wear monitoring.
 
-**Figure 1:** The tool wear trend for case 13, generated in the latent space.
+**Figure 1:** The tool wear trend for case 13, generated from the latent space.
 
 ![Latent Space KL-Divergence Trend on Case 13](images/latent_space_recon_case_13_150dpi_3.png)
 
@@ -32,3 +32,9 @@ The method achieved a precision-recall area-under-curve (PR-AUC) score of 0.45 a
     <img src="images/prauc_params_1_600dpi.png" width="700">
 </p>
 
+
+**Figure 5:** An example of one cut (out of 167) from the milling data set. Six signals are collected during each cut.
+
+<p align="center">
+    <img src="images/cut_145_300dpi.png" width="800">
+</p>
