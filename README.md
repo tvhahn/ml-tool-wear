@@ -2,9 +2,9 @@
 Demonstration of anomaly detection on the [UC Berkeley milling data set](https://ti.arc.nasa.gov/tech/dash/groups/pcoe/prognostic-data-repository/) using a disentangled-variational-autoencoder (beta-VAE). The method is described in my MASc thesis, *Feature Engineering and End-to-End Deep Learning in Tool Wear Monitoring*.
 
 ## How to Run
-[**milling-tool-wear-beta-vae.ipynb**](https://colab.research.google.com/github/tvhahn/ml-tool-wear/blob/master/milling-tool-wear-beta-vae.ipynb) is the notebook to replicate the results and make the figures. I recommend using google colab. The notebook is optimized for it, it will run in your browser, and no package installation required! Link below.
-
 [![Open In Colab](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/github/tvhahn/ml-tool-wear/blob/master/milling-tool-wear-beta-vae.ipynb)
+
+[**milling-tool-wear-beta-vae.ipynb**](https://colab.research.google.com/github/tvhahn/ml-tool-wear/blob/master/milling-tool-wear-beta-vae.ipynb) is the notebook to replicate the results and make the figures. I recommend using google colab. The notebook is optimized for it, it will run in your browser, and no package installation required!
 
 ## Summary
 A disentangled-variational-autoencoder, with a temporal convolutional neural network, was used to model and trend tool wear in a self-supervised manner. Anomaly detection was used to make predictions in both the input and latent spaces. The experiment was performed on the UC Berkeley milling data set. 
