@@ -1,4 +1,4 @@
-# Tool Wear Monitoring Using a Disentangled-Variational-Autoencoder and Anomaly Detection
+# Anomaly Detection for Tool Wear Monitoring Using a Disentangled-Variational-Autoencoder
 Demonstration of anomaly detection on the [UC Berkeley milling data set](https://ti.arc.nasa.gov/tech/dash/groups/pcoe/prognostic-data-repository/) using a disentangled-variational-autoencoder (beta-VAE). The method is described in my MASc thesis, *Feature Engineering and End-to-End Deep Learning in Tool Wear Monitoring*.
 
 ## How to Run
