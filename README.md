@@ -3,11 +3,13 @@ Demonstration of anomaly detection on the [UC Berkeley milling data set](https:/
 
 Please cite my research if you use it in any of your papers.
 
+```
 @phdthesis{von2020feature,
   title={Feature Engineering and End-to-End Deep Learning in Tool Wear Monitoring},
   author={von Hahn, Timothy and others},
   year={2020}
 }
+```
 
 
 ## How to Run
