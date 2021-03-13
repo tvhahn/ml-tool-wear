@@ -1,8 +1,7 @@
 # Anomaly Detection for Tool Wear Monitoring Using a Disentangled-Variational-Autoencoder
 Demonstration of anomaly detection on the [UC Berkeley milling data set](https://ti.arc.nasa.gov/tech/dash/groups/pcoe/prognostic-data-repository/) using a disentangled-variational-autoencoder (beta-VAE). The method is described in my MASc thesis, *[Feature Engineering and End-to-End Deep Learning in Tool Wear Monitoring](https://qspace.library.queensu.ca/handle/1974/28150)*.
 
-Please cite my research if you use it in any of your papers.
-
+Feel free to cite my research if you use it in any academic research.
 ```
 @phdthesis{von2020feature,
   title={Feature Engineering and End-to-End Deep Learning in Tool Wear Monitoring},
@@ -20,7 +19,7 @@ Please cite my research if you use it in any of your papers.
 ## Summary
 A disentangled-variational-autoencoder, with a temporal convolutional neural network, was used to model and trend tool wear in a self-supervised manner. Anomaly detection was used to make predictions in both the input and latent spaces. The experiment was performed on the UC Berkeley milling data set. 
 
-The method achieved a precision-recall area-under-curve (PR-AUC) score of 0.45 across all cutting parameters in the milling data set, and a top score of 0.80 for shallow depth cuts. The study presents the first use of a disentangled-variational-autoencoder for tool wear monitoring.
+The method achieved a precision-recall area-under-curve (PR-AUC) score of 0.45 across all cutting parameters in the milling data set, and a top score of 0.80 for shallow depth cuts. The study presents the first known use of a disentangled-variational-autoencoder for tool wear monitoring.
 
 **Figure 1:** The tool wear trend for case 13, generated from the latent space.
 
