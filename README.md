@@ -1,14 +1,21 @@
 # Anomaly Detection for Tool Wear Monitoring Using a Disentangled-Variational-Autoencoder
-Demonstration of anomaly detection on the [UC Berkeley milling data set](https://ti.arc.nasa.gov/tech/dash/groups/pcoe/prognostic-data-repository/) using a disentangled-variational-autoencoder (beta-VAE). The method is described in my MASc thesis, *[Feature Engineering and End-to-End Deep Learning in Tool Wear Monitoring](https://qspace.library.queensu.ca/handle/1974/28150)*.
+Demonstration of anomaly detection on the [UC Berkeley milling data set](https://ti.arc.nasa.gov/tech/dash/groups/pcoe/prognostic-data-repository/) using a disentangled-variational-autoencoder (beta-VAE). 
 
-I also have detailed blog posts exploring the UC Berkeley milling data set ([here](https://www.tvhahn.com/posts/milling/)) and how describing how the VAE is constructed ([here](https://www.tvhahn.com/posts/building-vae/)). The final blog post, on how the model is trained, is forthcoming... (aka, when I have time to write it).
+The method is described in the article "Self-supervised learning for tool wear monitoring with a disentangled-variational-autoencoder" in IJHM. Link to the preprint is here. The method is also described in my MASc thesis, *[Feature Engineering and End-to-End Deep Learning in Tool Wear Monitoring](https://qspace.library.queensu.ca/handle/1974/28150)*.
+
+I also have a detailed blog posts exploring the UC Berkeley milling data set ([here](https://www.tvhahn.com/posts/milling/)) and how describing how the VAE is constructed ([here](https://www.tvhahn.com/posts/building-vae/)). The final blog post, on how the model is trained, is forthcoming... (aka, when I have time to write it).
 
 Feel free to cite my research if you use it in any academic research.
 ```
-@phdthesis{von2020feature,
-  title={Feature Engineering and End-to-End Deep Learning in Tool Wear Monitoring},
-  author={von Hahn, Timothy and others},
-  year={2020}
+@article{hahn2021self,
+  title={Self-supervised learning for tool wear monitoring with a disentangled-variational-autoencoder},
+  author={Hahn, Tim Von and Mechefske, Chris K},
+  journal={International Journal of Hydromechatronics},
+  volume={4},
+  number={1},
+  pages={69--98},
+  year={2021},
+  publisher={Inderscience Publishers (IEL)}
 }
 ```
 
